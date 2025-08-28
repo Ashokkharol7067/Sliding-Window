@@ -5,8 +5,8 @@ import java.util.Queue;
 
 public class B {
     public static void main(String[] args) {
-        int nums[] = {-8, 2, 3, -6, 10};
-        int k=2;
+        int nums[] = {-8, 2, 3, -6, 10, 4, 11, 2};
+        int k=3;
         int i=0,j=0,n=nums.length;
         Queue<Integer> q = new LinkedList<>();
         Queue<Integer> ans = new LinkedList<>();
